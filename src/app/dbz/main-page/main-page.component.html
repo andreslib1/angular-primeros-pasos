@@ -1,0 +1,12 @@
+<h1>Dragin ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-personajes [personajes]="personajes"></app-personajes>  <!-- Muestra la informacion descrita en el componente personaje-->
+    </div>
+
+    <div class="col">
+        <app-agregar (onPersonajeAgregado)="agregarPersonaje($event)"></app-agregar> <!-- muestra la informacion en el componente agregar -->
+    </div>
+</div>
